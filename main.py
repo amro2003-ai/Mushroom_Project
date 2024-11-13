@@ -1,5 +1,5 @@
 # pip install -r requirements.txt
-# uvicorn main:app --reload
+# uvicorn main:app --host=0.0.0.0 --reload
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
